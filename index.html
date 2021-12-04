@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./dist/tailwind.css" rel="stylesheet">
+    <title>Scope To-Do</title>
+</head>
+<body class="bg-green min-h-screen py-16 antialiased px-6 lg:px-16 mx-auto">
+    <div class="flex flex-col lg:flex-row justify-between items-center mx-auto max-w-4.5xl">     
+        <div class="flex flex-col justify-center items-center">
+            <section class="flex flex-col justify-center items-center space-y-5 lg:space-y-6">
+                <svg fill="#1BD4AE" class="drop-shadow-lg transform rotate-3 h-12 w-12 lg:h-14 lg:w-14" width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0.137894" y="0.141846" width="63.5647" height="63.5647" rx="21.0281" fill="white"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 16C0 7.16344 7.16344 0 16 0H48C56.8366 0 64 7.16344 64 16V48C64 56.8366 56.8366 64 48 64H16C7.16344 64 0 56.8366 0 48V16ZM49.3218 20.263C51.3857 22.0975 51.5716 25.2579 49.737 27.3218L33.737 45.3218C32.8222 46.351 31.5233 46.9574 30.1469 46.9978C28.7704 47.0383 27.4382 46.5093 26.4645 45.5355L16.4645 35.5355C14.5118 33.5829 14.5118 30.4171 16.4645 28.4645C18.4171 26.5118 21.5829 26.5118 23.5355 28.4645L29.7859 34.7148L42.2629 20.6782C44.0975 18.6143 47.2579 18.4284 49.3218 20.263Z"/>
+                </svg>
+                <h1 class="drop-shadow-lg font-nunito font-extrabold text-white text-5xl lg:text-6xl text-center">Scope To-Do</h1>
+            </section>
+            <p class="mt-6 lg:mt-8 text-white text-lg sm:text-xl font-nunito font-semibold leading-6 max-w-sm text-center">Do your affinitizing, sequencing, and scoping work, all in one place</p>
+            <button class="shadow-inner hover:shadow-none active:shadow-inner transition-all mt-10 lg:mt-12 flex items-center  py-3 px-4 space-x-2 rounded-md text-white drop-shadow-none border-2 border-green-light bg-green-light">
+                <!-- <svg class="h-6 w-6" width="172" height="247" viewBox="0 0 172 247" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="Group">
+                    <path id="Rectangle 55" d="M164 46.5C164 67.763 146.763 85 125.5 85L86 85L86 8.0001L125.5 8.0001C146.763 8.0001 164 25.2371 164 46.5V46.5Z" stroke="black" stroke-width="15.081"/>
+                    <path id="Rectangle 55_2" d="M8 46.5C8 67.763 25.237 85 46.5 85L86 85L86 8.0001L46.5 8.0001C25.237 8.0001 8 25.2371 8 46.5V46.5Z" stroke="black" stroke-width="15.081"/>
+                    <path id="Rectangle 55_3" d="M8 123.501C8 144.764 25.237 162.001 46.5 162.001H86L86 85.0011L46.5 85.0011C25.237 85.0011 8 102.238 8 123.501V123.501Z" stroke="black" stroke-width="15.081"/>
+                    <path id="Rectangle 55_4" d="M8 200.5C8 221.763 25.4854 239 46.7484 239V239C68.2875 239 86 221.539 86 200L86 162H46.5C25.237 162 8 179.237 8 200.5V200.5Z" stroke="black" stroke-width="15.081"/>
+                    <path id="Rectangle 55_5" d="M86 123.501C86 144.764 103.237 162.001 124.5 162.001H125.5C146.763 162.001 164 144.764 164 123.501V123.501C164 102.238 146.763 85.0011 125.5 85.0011H124.5C103.237 85.0011 86 102.238 86 123.501V123.501Z" stroke="black" stroke-width="15.081"/>
+                    </g>
+                </svg> -->
+                <svg class="h-6 w-6" width="172" height="247" viewBox="0 0 172 247" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="Group">
+                    <path id="Rectangle 55" d="M164 46.5C164 67.763 146.763 85 125.5 85L86 85L86 8.0001L125.5 8.0001C146.763 8.0001 164 25.2371 164 46.5V46.5Z" stroke="white" stroke-width="15.081"/>
+                    <path id="Rectangle 55_2" d="M8 46.5C8 67.763 25.237 85 46.5 85L86 85L86 8.0001L46.5 8.0001C25.237 8.0001 8 25.2371 8 46.5V46.5Z" stroke="white" stroke-width="15.081"/>
+                    <path id="Rectangle 55_3" d="M8 123.501C8 144.764 25.237 162.001 46.5 162.001H86L86 85.0011L46.5 85.0011C25.237 85.0011 8 102.238 8 123.501V123.501Z" stroke="white" stroke-width="15.081"/>
+                    <path id="Rectangle 55_4" d="M8 200.5C8 221.763 25.4854 239 46.7484 239V239C68.2875 239 86 221.539 86 200L86 162H46.5C25.237 162 8 179.237 8 200.5V200.5Z" stroke="white" stroke-width="15.081"/>
+                    <path id="Rectangle 55_5" d="M86 123.501C86 144.764 103.237 162.001 124.5 162.001H125.5C146.763 162.001 164 144.764 164 123.501V123.501C164 102.238 146.763 85.0011 125.5 85.0011H124.5C103.237 85.0011 86 102.238 86 123.501V123.501Z" stroke="white" stroke-width="15.081"/>
+                    </g>
+                    </svg>
+                <p class="font-inter text-sm lg:text-base font-semibold">Download for FigJam</p>
+            </button>
+        </div>   
+        <img class="mt-12 drop-shadow-xl max-w-full h-auto" src="./img/widget.svg" alt="widget">
+    </div>
+</body>
+</html>
