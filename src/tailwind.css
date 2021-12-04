@@ -2,3 +2,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .link {
+        text-decoration: underline;
+        text-decoration-color: #9FDED2;
+    }
+}
