@@ -10,6 +10,9 @@ module.exports = {
         inter: ['Inter', 'sans-serif'],
         nunito: ['Nunito', 'sans-serif'],
       },
+      fontSize: {
+        '5.5xl': ['3.5rem', 1],
+      },
       colors: {
         green: {
           lighter: '#C1EBE3',
@@ -32,6 +35,7 @@ module.exports = {
   variants: {
     extend: {
       ringColor: ['active'],
+      fontSize: ['active'],
     },
   },
   plugins: [],
